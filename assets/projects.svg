@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="502" viewBox="0 0 850 502" role="img" aria-label="Projetos: Ser+ (em produção, Universidade de Aveiro), BetLearn, Skye, ApyDrinks e MyBudget.">
+  <defs>
+    <style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .f{opacity:0;animation:in .8s cubic-bezier(.16,1,.3,1) forwards}
+      @keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+      .ping{transform-box:fill-box;transform-origin:center;animation:ping 2s ease-out infinite}
+      @keyframes ping{0%{transform:scale(1);opacity:.6}100%{transform:scale(3.2);opacity:0}}
+      .sweep{animation:sweep 6s ease-in-out 1.2s infinite;opacity:0}
+      @keyframes sweep{0%{transform:translateX(0);opacity:0}15%{opacity:1}60%{transform:translateX(840px);opacity:0}100%{transform:translateX(840px);opacity:0}}
+      @media (prefers-reduced-motion: reduce){
+        .f{animation:none;opacity:1}
+        .ping{animation:none}
+        .sweep{display:none}
+      }
+    </style>
+    <radialGradient id="serGlow" cx="92%" cy="20%" r="60%">
+      <stop offset="0" stop-color="#059E29" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#059E29" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweepG" x1="0" x2="1">
+      <stop offset="0" stop-color="#3ecf8e" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#3ecf8e" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#3ecf8e" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="serClip"><rect x="24" y="52" width="802" height="136" rx="12"/></clipPath>
+  </defs>
+
+  <rect x=".5" y=".5" width="849" height="501" rx="15.5" fill="#09090b" stroke="#24242a"/>
+  <g class="f" style="animation-delay:.05s">
+    <text x="28" y="34" class="mono" font-size="11.5" fill="#ff7a45">// projetos</text>
+    <text x="822" y="34" class="mono" font-size="11" fill="#7d7d87" text-anchor="end">do primeiro commit até produção</text>
+  </g>
+
+  <!-- Ser+ -->
+  <g class="f" style="animation-delay:.2s">
+    <rect x="24" y="52" width="802" height="136" rx="12" fill="#111114"/>
+    <rect x="24" y="52" width="802" height="136" rx="12" fill="url(#serGlow)"/>
+    <g clip-path="url(#serClip)"><rect class="sweep" x="-120" y="52" width="120" height="1.5" fill="url(#sweepG)"/></g>
+    <rect x="24.5" y="52.5" width="801" height="135" rx="11.5" fill="none" stroke="#059E29" stroke-opacity=".45"/>
+    <circle class="ping" cx="49" cy="77" r="3.5" fill="#3ecf8e"/><circle cx="49" cy="77" r="3.5" fill="#3ecf8e"/>
+    <text x="61" y="81" class="mono" font-size="10.5" fill="#3ecf8e">em produção · Universidade de Aveiro</text>
+    <text x="804" y="81" class="mono" font-size="10.5" fill="#7d7d87" text-anchor="end">share.sermaisapp.ua.pt ↗</text>
+    <text x="44" y="112" class="sans" font-size="26" font-weight="700" letter-spacing="-.8" fill="#ededef">Ser<tspan fill="#059E29">+</tspan></text>
+    <text class="sans" font-size="13.5" fill="#a1a1aa">
+      <tspan x="44" y="138">Plataforma universitária de desenvolvimento pessoal: app mobile, dashboard web e backend em microserviços.</tspan>
+      <tspan x="44" y="157">Eventos via RabbitMQ, GraphQL em tempo real, assistente de IA multi-agente e observabilidade completa.</tspan>
+    </text>
+    <text x="44" y="177" class="mono" font-size="10.5" fill="#7d7d87">Node.js · TypeScript · RabbitMQ · Hasura · Socket.io · OpenAI · OpenTelemetry · Grafana</text>
+  </g>
+
+  <g class="f" style="animation-delay:0.45s">
+    <rect x="24" y="200" width="395" height="134" rx="12" fill="#111114" stroke="#24242a"/>
+    <rect x="25" y="218" width="2.5" height="26" rx="1.25" fill="#34d374"/>
+    <text x="44" y="229" class="mono" font-size="10.5" fill="#34d374">académico · CBL</text>
+    <text x="44" y="252" class="sans" font-size="19" font-weight="650" letter-spacing="-.5" fill="#ededef">BetLearn</text>
+    <text class="sans" font-size="13" fill="#a1a1aa"><tspan x="44" y="277">Plataforma gamificada de sensibilização para o</tspan><tspan x="44" y="295">jogo online, com chatbot de IA (Gemini).</tspan></text>
+    <text x="44" y="318" class="mono" font-size="10.5" fill="#7d7d87">Node.js · TypeScript · PostgreSQL · React Native</text>
+  </g>
+  <g class="f" style="animation-delay:0.57s">
+    <rect x="431" y="200" width="395" height="134" rx="12" fill="#111114" stroke="#24242a"/>
+    <rect x="432" y="218" width="2.5" height="26" rx="1.25" fill="#4cb0f7"/>
+    <text x="451" y="229" class="mono" font-size="10.5" fill="#4cb0f7">investigação · 2 artigos</text>
+    <text x="451" y="252" class="sans" font-size="19" font-weight="650" letter-spacing="-.5" fill="#ededef">Skye</text>
+    <text class="sans" font-size="13" fill="#a1a1aa"><tspan x="451" y="277">Acompanhamento terapêutico multi-role, avaliado</tspan><tspan x="451" y="295">com utilizadores reais. Publicado no IADIS e IJWI.</tspan></text>
+    <text x="451" y="318" class="mono" font-size="10.5" fill="#7d7d87">React · Firestore · Firebase Auth</text>
+  </g>
+  <g class="f" style="animation-delay:0.69s">
+    <rect x="24" y="346" width="395" height="134" rx="12" fill="#111114" stroke="#24242a"/>
+    <rect x="25" y="364" width="2.5" height="26" rx="1.25" fill="#ef5b3c"/>
+    <text x="44" y="375" class="mono" font-size="10.5" fill="#ef5b3c">pessoal · PWA</text>
+    <text x="44" y="398" class="sans" font-size="19" font-weight="650" letter-spacing="-.5" fill="#ededef">ApyDrinks</text>
+    <text class="sans" font-size="13" fill="#a1a1aa"><tspan x="44" y="423">Receitas de cocktails com filtros e favoritos.</tspan><tspan x="44" y="441">Um bom cocktail merece o cuidado de um bom sistema.</tspan></text>
+    <text x="44" y="464" class="mono" font-size="10.5" fill="#7d7d87">React · TypeScript · CocktailDB API</text>
+  </g>
+  <g class="f" style="animation-delay:0.81s">
+    <rect x="431" y="346" width="395" height="134" rx="12" fill="#111114" stroke="#24242a"/>
+    <rect x="432" y="364" width="2.5" height="26" rx="1.25" fill="#c9f24b"/>
+    <text x="451" y="375" class="mono" font-size="10.5" fill="#c9f24b">pessoal · PWA</text>
+    <text x="451" y="398" class="sans" font-size="19" font-weight="650" letter-spacing="-.5" fill="#ededef">MyBudget</text>
+    <text class="sans" font-size="13" fill="#a1a1aa"><tspan x="451" y="423">Dashboard de finanças pessoais: ganhos, despesas</tspan><tspan x="451" y="441">e poupanças — e para onde vai o dinheiro.</tspan></text>
+    <text x="451" y="464" class="mono" font-size="10.5" fill="#7d7d87">React · TypeScript · Firebase · Charts</text>
+  </g>
+</svg>

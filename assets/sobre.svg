@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="293" viewBox="0 0 850 293" role="img" aria-label="Sobre mim: full-stack developer na Universidade de Aveiro, focado em backend. A terminar o mestrado em Comunicação e Tecnologias Web e à procura da próxima equipa.">
+  <defs><style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .f{opacity:0;animation:in .8s cubic-bezier(.16,1,.3,1) forwards}
+      @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+      .glint{animation:glint 4s ease-in-out infinite}
+      @keyframes glint{0%,100%{opacity:.35}50%{opacity:1}}
+      @media (prefers-reduced-motion: reduce){.f{animation:none;opacity:1}.glint{animation:none}}
+    </style></defs>
+  <rect x=".5" y=".5" width="849" height="292" rx="15.5" fill="#09090b" stroke="#24242a"/>
+  <text x="28" y="34" class="mono f" font-size="11.5" fill="#ff7a45">// sobre mim</text>
+  <g class="f" style="animation-delay:.1s">
+    <rect x="24" y="52" width="196" height="62" rx="10" fill="#111114" stroke="#24242a"/>
+    <text x="42" y="74" class="mono" font-size="10.5" fill="#7d7d87">base</text>
+    <text x="42" y="99" class="sans" font-size="14" font-weight="500" fill="#ededef">Aveiro, Portugal</text>
+    <rect x="225" y="52" width="196" height="62" rx="10" fill="#111114" stroke="#24242a"/>
+    <text x="243" y="74" class="mono" font-size="10.5" fill="#7d7d87">foco</text>
+    <text x="243" y="99" class="sans" font-size="14" font-weight="500" fill="#ededef">backend · eventos · IA</text>
+    <rect x="426" y="52" width="196" height="62" rx="10" fill="#111114" stroke="#24242a"/>
+    <text x="444" y="74" class="mono" font-size="10.5" fill="#7d7d87">formação</text>
+    <text x="444" y="99" class="sans" font-size="14" font-weight="500" fill="#ededef">MCTW @ UA</text>
+    <rect x="627" y="52" width="199" height="62" rx="10" fill="#111114" stroke="#24242a"/>
+    <text x="645" y="74" class="mono" font-size="10.5" fill="#7d7d87">estado</text>
+    <circle cx="645" cy="95" r="3" fill="#3ecf8e"/><text x="655" y="99" class="sans" font-size="14" font-weight="500" fill="#ededef">disponível</text>
+  </g>
+  <g class="f" style="animation-delay:.3s">
+    <rect x="24" y="126" width="802" height="143" rx="12" fill="#111114" stroke="#24242a"/>
+    <text class="sans" font-size="14.5" fill="#a1a1aa">
+      <tspan x="44" y="152">Sou full-stack developer na <tspan fill="#ededef" font-weight="600">Universidade de Aveiro</tspan> e trabalho sobretudo em backend.</tspan>
+      <tspan x="44" y="175">Desenvolvo o <tspan fill="#ededef" font-weight="600">Ser+</tspan> de ponta a ponta: desde o desenho dos microserviços até à infraestrutura em</tspan>
+      <tspan x="44" y="198">produção, passando pelo dashboard web e pela integração de IA.<tspan fill="#ededef" font-weight="600"></tspan></tspan>
+      <tspan x="44" y="233">Estou a terminar o <tspan fill="#ededef" font-weight="600">mestrado em Comunicação e Tecnologias Web</tspan>, com investigação em sistemas de</tspan>
+      <tspan x="44" y="256">recomendação, A/B testing e observabilidade. Procuro a <tspan fill="#ededef" font-weight="600">próxima equipa</tspan> para construir sistemas a sério.</tspan>
+    </text>
+  </g>
+</svg>
