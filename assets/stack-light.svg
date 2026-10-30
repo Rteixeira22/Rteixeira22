@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="376" viewBox="0 0 850 376" role="img" aria-label="Stack técnica: frontend, gateway, backend, eventos, dados, IA e operações.">
+  <defs>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .f{opacity:0;animation:in .7s cubic-bezier(.16,1,.3,1) forwards}
+      @keyframes in{from{opacity:0}to{opacity:1}}
+      .bar{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:grow .9s cubic-bezier(.16,1,.3,1) forwards}
+      @keyframes grow{to{transform:scaleX(1)}}
+      @media (prefers-reduced-motion: reduce){
+        .f{animation:none;opacity:1}
+        .bar{animation:none;transform:none}
+      }
+    </style>
+  </defs>
+  <rect x=".5" y=".5" width="849" height="375" rx="15.5" fill="#ffffff" stroke="#d8dee4"/>
+  <text x="28" y="36" class="mono f" font-size="11.5" fill="#e5541b">// stack</text>
+  <text x="822" y="36" class="mono f" font-size="11" fill="#6e7781" text-anchor="end">rodrigo.stack · 7 camadas</text>
+  <path d="M24 52H826" stroke="#d8dee4"/>
+  <path d="M37 102V338" stroke="#d8dee4"/>
+  <g>
+    <text x="30" y="91" class="mono f" style="animation-delay:0.25s" font-size="12" fill="#59636e"><tspan fill="#1f2328">●</tspan> full-stack</text>
+    <rect class="bar" style="animation-delay:0.25s" x="200" y="74" width="295" height="24" rx="6" fill="#1f2328" fill-opacity=".14" stroke="#1f2328" stroke-opacity=".55"/>
+    <text x="212" y="90" class="mono f" style="animation-delay:0.55s" font-size="11.5" fill="#1f2328">rodrigo.teixeira · full-stack developer</text>
+  </g>
+  <g>
+    <text x="44" y="127" class="mono f" style="animation-delay:0.37s" font-size="12" fill="#59636e"><tspan fill="#c2c9d1">└ </tspan><tspan fill="#0969da">●</tspan> frontend</text>
+    <rect class="bar" style="animation-delay:0.37s" x="200" y="110" width="295" height="24" rx="6" fill="#0969da" fill-opacity=".14" stroke="#0969da" stroke-opacity=".55"/>
+    <text x="212" y="126" class="mono f" style="animation-delay:0.67s" font-size="11.5" fill="#1f2328">React · React Native · Redux · Tailwind</text>
+  </g>
+  <g>
+    <text x="44" y="163" class="mono f" style="animation-delay:0.49s" font-size="12" fill="#59636e"><tspan fill="#c2c9d1">└ </tspan><tspan fill="#8250df">●</tspan> gateway</text>
+    <rect class="bar" style="animation-delay:0.49s" x="200" y="146" width="219" height="24" rx="6" fill="#8250df" fill-opacity=".14" stroke="#8250df" stroke-opacity=".55"/>
+    <text x="212" y="162" class="mono f" style="animation-delay:0.79s" font-size="11.5" fill="#1f2328">GraphQL · Hasura · Socket.io</text>
+  </g>
+  <g>
+    <text x="44" y="199" class="mono f" style="animation-delay:0.61s" font-size="12" fill="#59636e"><tspan fill="#c2c9d1">└ </tspan><tspan fill="#e5541b">●</tspan> backend</text>
+    <rect class="bar" style="animation-delay:0.61s" x="200" y="182" width="295" height="24" rx="6" fill="#e5541b" fill-opacity=".14" stroke="#e5541b" stroke-opacity=".55"/>
+    <text x="212" y="198" class="mono f" style="animation-delay:0.91s" font-size="11.5" fill="#1f2328">Node.js · TypeScript · Express · Prisma</text>
+  </g>
+  <g>
+    <text x="44" y="235" class="mono f" style="animation-delay:0.73s" font-size="12" fill="#59636e"><tspan fill="#c2c9d1">└ </tspan><tspan fill="#b7791f">●</tspan> events</text>
+    <rect class="bar" style="animation-delay:0.73s" x="200" y="218" width="170" height="24" rx="6" fill="#b7791f" fill-opacity=".14" stroke="#b7791f" stroke-opacity=".55"/>
+    <text x="212" y="234" class="mono f" style="animation-delay:1.03s" font-size="11.5" fill="#1f2328">RabbitMQ · FCM · SMTP</text>
+  </g>
+  <g>
+    <text x="44" y="271" class="mono f" style="animation-delay:0.85s" font-size="12" fill="#59636e"><tspan fill="#c2c9d1">└ </tspan><tspan fill="#1a8f5a">●</tspan> data</text>
+    <rect class="bar" style="animation-delay:0.85s" x="200" y="254" width="288" height="24" rx="6" fill="#1a8f5a" fill-opacity=".14" stroke="#1a8f5a" stroke-opacity=".55"/>
+    <text x="212" y="270" class="mono f" style="animation-delay:1.15s" font-size="11.5" fill="#1f2328">PostgreSQL · MySQL · Firestore · MinIO</text>
+  </g>
+  <g>
+    <text x="44" y="307" class="mono f" style="animation-delay:0.97s" font-size="12" fill="#59636e"><tspan fill="#c2c9d1">└ </tspan><tspan fill="#9a6cf0">●</tspan> ai</text>
+    <rect class="bar" style="animation-delay:0.97s" x="200" y="290" width="274" height="24" rx="6" fill="#9a6cf0" fill-opacity=".14" stroke="#9a6cf0" stroke-opacity=".55"/>
+    <text x="212" y="306" class="mono f" style="animation-delay:1.27s" font-size="11.5" fill="#1f2328">OpenAI · Gemini · Recombee · LightFM</text>
+  </g>
+  <g>
+    <text x="44" y="343" class="mono f" style="animation-delay:1.09s" font-size="12" fill="#59636e"><tspan fill="#c2c9d1">└ </tspan><tspan fill="#cf3a1d">●</tspan> ops</text>
+    <rect class="bar" style="animation-delay:1.09s" x="200" y="326" width="497" height="24" rx="6" fill="#cf3a1d" fill-opacity=".14" stroke="#cf3a1d" stroke-opacity=".55"/>
+    <text x="212" y="342" class="mono f" style="animation-delay:1.39s" font-size="11.5" fill="#1f2328">Docker · Linux · OpenTelemetry · Prometheus · Grafana · Loki · Tempo</text>
+  </g>
+</svg>
